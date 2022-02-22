@@ -5,12 +5,7 @@
 </template>
 
 <style lang="scss">
-body {
-  margin: 0;
-  h1 {
-    color: red;
-  }
-}
+@import 'normalize.css';
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
