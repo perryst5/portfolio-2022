@@ -1,6 +1,6 @@
 <template>
   <header>
-    This is the Site Header
+    <div class="logo">Steve<br /> Perry</div>
   </header>
 </template>
 

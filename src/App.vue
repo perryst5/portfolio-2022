@@ -6,9 +6,10 @@
 
 <style lang="scss">
 @import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: Audiowide, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
