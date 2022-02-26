@@ -1,8 +1,5 @@
 <template>
-  <Header />
-  <IntroContent msg="Test Message" />
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <router-view />
+  <UnderConstruction />
 </template>
 
 <style lang="scss">
@@ -15,10 +12,8 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #fff;
-  padding-top: 60px;
-  background: #333;
+  background: #111;
   height: 100vh;
-  width: 100vh;
 }
 </style>
 
@@ -27,4 +22,5 @@
 // Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
 import Header from './components/Header.vue'
 import IntroContent from './components/IntroContent.vue'
+import UnderConstruction from './components/temp/UnderConstruction.vue'
 </script>
