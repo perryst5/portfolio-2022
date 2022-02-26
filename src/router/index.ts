@@ -10,6 +10,14 @@ const routes: Array<RouteRecordRaw> = [
     component: () => import("@/views/Home.vue")
   },
   {
+    path: "/about",
+    component: () => import("@/views/About.vue")
+  },
+  {
+    path: "/contact",
+    component: () => import("@/views/Contact.vue")
+  },
+  {
     // the 404 route, when none of the above matches
     path: "/404",
     name: "404",
