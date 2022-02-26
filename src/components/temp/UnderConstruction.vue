@@ -100,9 +100,9 @@ export default defineComponent({
   },
   mounted() {
     if ( navigator.platform.indexOf('Win') != -1 ) {
-      window.document.getElementById("wrapper").setAttribute("class", "windows");
+      window.document.getElementById("wrapper")!.setAttribute("class", "windows");
     } else if ( navigator.platform.indexOf('Mac') != -1 ) {
-      window.document.getElementById("wrapper").setAttribute("class", "mac");
+      window.document.getElementById("wrapper")!.setAttribute("class", "mac");
     }
   }
 });
