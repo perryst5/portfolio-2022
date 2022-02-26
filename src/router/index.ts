@@ -1,15 +1,19 @@
-import { createRouter, createWebHashHistory, RouteRecordRaw } from "vue-router";
+import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
 
 const routes: Array<RouteRecordRaw> = [
   {
     path: "/",
-    component: () => import("@/App.vue")
+    component: () => import("@/views/Temp.vue")
+  },
+  {
+    path: "/stage",
+    component: () => import("@/views/Home.vue")
   },
   {
     // the 404 route, when none of the above matches
     path: "/404",
     name: "404",
-    component: () => import("@/views/error/Error404.vue")
+    component: () => import("@/views/Error404.vue")
   },
   {
     path: "/:pathMatch(.*)*",
@@ -18,7 +22,7 @@ const routes: Array<RouteRecordRaw> = [
 ];
 
 const router = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHistory(),
   routes
 });
 

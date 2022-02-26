@@ -1,5 +1,5 @@
 <template>
-  <router-view></router-view>
+  <UnderConstruction />
 </template>
 
 <style lang="scss">
@@ -18,9 +18,5 @@
 </style>
 
 <script setup lang="ts">
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
-import Header from './components/Header.vue'
-import IntroContent from './components/IntroContent.vue'
-import UnderConstruction from './components/temp/UnderConstruction.vue'
+import UnderConstruction from '@/components/temp/UnderConstruction.vue'
 </script>
