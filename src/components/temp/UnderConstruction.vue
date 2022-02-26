@@ -7,6 +7,10 @@
     <div class="coming-soon">
       Website coming soon
     </div>
+    <div class="socials">
+      <a href="https://github.com/perryst5">Github</a><br />
+      <a href="linkedin.com/in/steeeveperry/">LinkedIn</a>
+    </div>
   </div>
 </template>
 
@@ -20,10 +24,22 @@
   margin-bottom: 120px;
 }
 
+.socials{
+  text-align: left;
+  padding-left: 30px;
+  a{
+    font-size: 20px;
+    color: #ed2121;
+    margin: 4px 0;
+    display: inline-block;
+  }
+}
+
 .coming-soon {
   text-align: left;
   font-size: 40px;
   padding-left: 30px;
+  margin-bottom: 10px;
 }
 
 .steve {
