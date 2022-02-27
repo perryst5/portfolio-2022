@@ -16,7 +16,10 @@
 @import url(https://fonts.googleapis.com/css?family=Mr+Dafoe);
 @import url(https://fonts.googleapis.com/css?family=Candal);
 header{
+  max-width: 1260px;
+  margin: 0 auto;
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .logo {

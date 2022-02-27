@@ -1,6 +1,5 @@
 <template>
   <div class="page">
-    <Header />
     <h1>Connect with me on a social network</h1>
     <div class="socials">
       <a href="https://github.com/perryst5">
@@ -45,6 +44,10 @@
 </template>
 
 <style scoped lang="scss">
+h1, h2, .socials{
+  text-align: center;
+}
+
 .container {
   display: block;
   margin:auto;
@@ -67,6 +70,9 @@ input[type=text], [type=email], textarea {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
+  font-family: 'Athiti', sans-serif;
+  font-weight: 700;
+  color: #333;
 }
 
 input[type=submit] {
@@ -86,21 +92,21 @@ input[type=submit]:hover {
   a{
     font-size: 40px;
     margin: 0 20px;
+
+    &:hover{
+      color: #ed2121;
+    }
   }
 }
 </style>
 
 <script lang="ts">
-import Header from '@/components/Header.vue'
 import emailjs from 'emailjs-com'
 import { defineComponent } from 'vue'
 
 
 export default defineComponent({
   name: "Contact",
-  components: {
-    Header
-  },
   data() {
     return {
       name: '',
