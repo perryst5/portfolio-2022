@@ -67,18 +67,18 @@ export default defineComponent({
 
     }
     const cats = [
-      "src/assets/cats/zero.jpg",
-      "src/assets/cats/bobby.jpg",
-      "src/assets/cats/puma.jpg"
+      "/assets/cats/zero.jpg",
+      "/assets/cats/bobby.jpg",
+      "/assets/cats/puma.jpg"
     ]
 
     const nes = [
-      "src/assets/nes/open_nes.jpg",
-      "src/assets/nes/terrible_dremel.jpg",
-      "src/assets/nes/solder_time.jpg",
-      "src/assets/nes/nes_assemble.jpg",
-      "src/assets/nes/closed_up.jpg",
-      "src/assets/nes/desk.jpg"
+      "/assets/nes/open_nes.jpg",
+      "/assets/nes/terrible_dremel.jpg",
+      "/assets/nes/solder_time.jpg",
+      "/assets/nes/nes_assemble.jpg",
+      "/assets/nes/closed_up.jpg",
+      "/assets/nes/desk.jpg"
     ]
 
     return {
