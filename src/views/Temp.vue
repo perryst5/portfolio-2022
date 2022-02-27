@@ -14,6 +14,7 @@
   color: #fff;
   background: #111;
   height: 100vh;
+  padding: 5px;
 }
 </style>
 

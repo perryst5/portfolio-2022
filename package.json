@@ -8,9 +8,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "emailjs-com": "^3.2.0",
     "normalize.css": "^8.0.1",
     "vue": "^3.2.25",
-    "vue-router": "^4.0.12"
+    "vue-router": "^4.0.12",
+    "vue3-carousel": "^0.1.36"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.2.0",

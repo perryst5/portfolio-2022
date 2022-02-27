@@ -108,6 +108,7 @@ a {
   border: 2px solid #fff;
   padding: 10px 4px;
   margin: 0 2px;
+  transition: .3s;
 
   &:hover, &:focus, &:active{
     background: rgba(#ed2121, .8);
