@@ -9,7 +9,7 @@
     </div>
     <div class="socials">
       <a href="https://github.com/perryst5">Github</a><br />
-      <a href="linkedin.com/in/steeeveperry/">LinkedIn</a>
+      <a href="https://linkedin.com/in/steeeveperry/">LinkedIn</a>
     </div>
   </div>
 </template>
@@ -27,6 +27,7 @@
 .socials{
   text-align: left;
   padding-left: 30px;
+  position: relative;
   a{
     font-size: 20px;
     color: #ed2121;
