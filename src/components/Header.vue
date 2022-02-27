@@ -15,8 +15,8 @@
 <style scoped lang="scss">
 @import url(https://fonts.googleapis.com/css?family=Mr+Dafoe);
 @import url(https://fonts.googleapis.com/css?family=Candal);
-a {
-  color: #42b983;
+header{
+  margin-bottom: 30px;
 }
 
 .logo {

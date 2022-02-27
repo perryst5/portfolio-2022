@@ -1,6 +1,19 @@
 <template>
   <div class="page">
     <Header />
+    <h1>Connect with me on a social network</h1>
+    <div class="socials">
+      <a href="https://github.com/perryst5">
+        <font-awesome-icon :icon="['fab', 'github']" />
+      </a>
+      <a href="https://www.linkedin.com/in/steeeveperry">
+        <font-awesome-icon :icon="['fab', 'linkedin']" />
+      </a>
+      <a href="https://www.instagram.com/wut_a_concept/">
+        <font-awesome-icon :icon="['fab', 'instagram']" />
+      </a>
+    </div>
+    <h2>Or send me an email via this form</h2>
     <div class="container">
       <form ref="form" @submit.prevent="sendEmail">
         <label>Name</label>
@@ -39,7 +52,6 @@
   margin:auto;
   text-align: center;
   border-radius: 5px;
-  background-color: #f2f2f2;
   padding: 20px;
   width: 50%;
 }
@@ -70,6 +82,13 @@ input[type=submit] {
 
 input[type=submit]:hover {
   background-color: #45a049;
+}
+
+.socials{
+  a{
+    font-size: 40px;
+    margin: 0 20px;
+  }
 }
 </style>
 
