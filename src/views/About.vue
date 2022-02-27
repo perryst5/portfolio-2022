@@ -10,8 +10,14 @@
       </div>
       <div class="column">
         <carousel :items-to-show="1" :arrows="true" :dots="true" :autoplay="5000">
-          <slide v-for="cat in cats" :key="cat">
-            <img :src="cat" />
+          <slide :key="1">
+            <img src="@/assets/cats/zero.jpg" alt="My cat Zero">
+          </slide>
+          <slide :key="2">
+            <img src="@/assets/cats/bobby.jpg" alt="My Sister's cat Bobby">
+          </slide>
+          <slide :key="3">
+            <img src="@/assets/cats/puma.jpg" alt="My Sister's cat Puma">
           </slide>
 
           <template #addons>
@@ -31,8 +37,23 @@
       </div>
       <div class="column">
         <carousel :items-to-show="1" :arrows="false" :dots="true" :autoplay="5000">
-          <slide v-for="photo in nes" :key="photo">
-            <img :src="photo" />
+          <slide :key="1">
+            <img src="@/assets/nes/open_nes.jpg" alt="The initial insides of the NES">
+          </slide>
+          <slide :key="2">
+            <img src="@/assets/nes/terrible_dremel.jpg" alt="An admittedly terrible dremel job. Measure twice, cut once, still mess up">
+          </slide>
+          <slide :key="3">
+            <img src="@/assets/nes/solder_time.jpg" alt="Steve's first time soldering">
+          </slide>
+          <slide :key="4">
+            <img src="@/assets/nes/nes_assemble.jpg" alt="Assembly of the internal components">
+          </slide>
+          <slide :key="5">
+            <img src="@/assets/nes/closed_up.jpg" alt="The NES is re-assembled">
+          </slide>
+          <slide :key="6">
+            <img src="@/assets/nes/desk.jpg" alt="The desk at which I work">
           </slide>
 
           <template #addons>
@@ -61,30 +82,6 @@ export default defineComponent({
     Carousel,
     Slide,
     Pagination,
-  },
-  setup() {
-    const sliderSettings = {
-
-    }
-    const cats = [
-      "/assets/cats/zero.jpg",
-      "/assets/cats/bobby.jpg",
-      "/assets/cats/puma.jpg"
-    ]
-
-    const nes = [
-      "/assets/nes/open_nes.jpg",
-      "/assets/nes/terrible_dremel.jpg",
-      "/assets/nes/solder_time.jpg",
-      "/assets/nes/nes_assemble.jpg",
-      "/assets/nes/closed_up.jpg",
-      "/assets/nes/desk.jpg"
-    ]
-
-    return {
-      cats,
-      nes
-    }
   }
 });
 </script>
