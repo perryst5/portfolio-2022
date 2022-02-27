@@ -6,6 +6,8 @@
 @import 'normalize.css';
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 
+* {box-sizing: border-box;}
+
 #app {
   font-family: Audiowide, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

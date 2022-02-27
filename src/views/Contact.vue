@@ -45,8 +45,6 @@
 </template>
 
 <style scoped lang="scss">
-* {box-sizing: border-box;}
-
 .container {
   display: block;
   margin:auto;
@@ -113,15 +111,9 @@ export default defineComponent({
   methods: {
     sendEmail(e) {
       try {
-        emailjs.sendForm('service_tfr1txk', 'template_w7xjm1d', e.target,
-        'EML_Nc8jJKjAB-VTu', {
-          from_name: this.name,
-          email: this.email,
-          message: this.message
-        })
-
+        emailjs.sendForm('service_tfr1txk', 'template_w7xjm1d', e.target, 'EML_Nc8jJKjAB-VTu')
       } catch(error) {
-          console.log({error})
+        console.log({error})
       }
       // Reset form field
       this.name = ''

@@ -56,8 +56,8 @@ img{
 
 <script lang="ts">
 import Header from '@/components/Header.vue'
-import 'vue3-carousel/dist/carousel.css';
-import { Carousel, Slide, Pagination } from 'vue3-carousel';
+import 'vue3-carousel/dist/carousel.css'
+import { Carousel, Slide, Pagination } from 'vue3-carousel'
 import { defineComponent } from 'vue'
 
 export default defineComponent({
