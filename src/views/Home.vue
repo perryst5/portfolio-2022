@@ -12,7 +12,7 @@
         <p>My role has shifted throughout the years to a more full-stack one, as I contribute more frequently to our internal app platform.</p>
         <p>My current project is using VueJS with WebPack as a bundler and BootStrap for our CSS framework. Working with other Senior Developers, we're rewriting our RESTful API for our new enterprise-level application.</p>
         <p>The website you're currently on is a single page application built in VueJS, using Vite as the bundler and Netlify as a hosting service. Here's <a href="https://github.com/perryst5/portfolio-2022">the code</a>, if you're interested.</p>
-        <p>Please take a look at my <a href="https://linkedin.com/in/steeeveperry">LinkedIn profile</a> for more information about my work history, or download my <a href="src/assets/documents/sperry_resume.pdf">resume</a>.</p>
+        <p>Please take a look at my <a href="https://linkedin.com/in/steeeveperry">LinkedIn profile</a> for more information about my work history, or download my <a href="/documents/sperry_resume.pdf">resume</a>.</p>
       </div>
       
       <div class="column">
