@@ -8,6 +8,7 @@
       <router-link :to="{ path: '/' }">Home</router-link>
       <router-link :to="{ path: '/about' }">About</router-link>
       <router-link :to="{ path: '/contact' }">Contact</router-link>
+      <a href="/documents/sperry_resume.pdf">Resume</a>
     </nav>
   </header>
 </template>
