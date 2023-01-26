@@ -62,6 +62,18 @@
         </carousel>
       </div>
     </div>
+
+    <div class="row-50-50">
+      <div class="column">
+        <h2>Music</h2>
+        <p>Music has always been an important part of my life. I learned to play the saxophone at an early age, and pursued it through the end of high school. Performing with the Civic Youth Ensemble at Orchestra Hall in Detroit was definitely the peak of my performing career.</p>
+        <p>Since I stopped performing in favor of a career in programming, I've continued to attend concerts and collect records. If I'm working and not in a meeting, there's always something playing on my stereo.</p>
+        <p>The grid of album covers near this text is powered by the <a href="https://www.last.fm/api" target="_blank">last.fm api</a>. It lists the last nine songs I've listened to through Spotify. This section exists purely to give me a reason to work with that api. You can see my full last.fm profile <a href="https://www.last.fm/user/Dr_Steveo" target="_blank">here</a>.</p>
+      </div>
+      <div class="column">
+        <LastFm />
+      </div>
+    </div>
   </div>
 </template>
 
@@ -75,6 +87,7 @@ section.carousel {
 import 'vue3-carousel/dist/carousel.css'
 import { Carousel, Slide, Pagination } from 'vue3-carousel'
 import { defineComponent } from 'vue'
+import LastFm from "@/components/LastFm.vue"
 
 export default defineComponent({
   name: "About",
@@ -82,6 +95,7 @@ export default defineComponent({
     Carousel,
     Slide,
     Pagination,
+    LastFm
   }
 });
 </script>
