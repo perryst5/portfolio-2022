@@ -101,7 +101,7 @@ input[type=submit]:hover {
 </style>
 
 <script lang="ts">
-import emailjs from 'emailjs-com'
+import emailjs from '@emailjs/browser'
 import { defineComponent } from 'vue'
 
 
@@ -118,6 +118,12 @@ export default defineComponent({
     sendEmail(e) {
       try {
         emailjs.sendForm('service_tfr1txk', 'template_w7xjm1d', e.target, 'EML_Nc8jJKjAB-VTu')
+          .then((result) => {
+            console.log('SUCCESS!', result.text)
+            alert('Email sent successfully! I will get back to you as soon as possible. Thanks!')
+          }, (error) => {
+            console.log('Email send failed:', error.text)
+          })
       } catch(error) {
         console.log({error})
       }
