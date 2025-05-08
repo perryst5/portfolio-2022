@@ -1,1 +1,4 @@
 /* /index.html 200.
+
+# Redirect for sirgonk subdomain
+https://sirgonk.stevenperry.net/* https://192-168-1-175.sirgonk.direct-us.ug.link:9443/desktop 301
