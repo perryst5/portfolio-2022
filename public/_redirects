@@ -1,4 +1,5 @@
-/* /index.html 200.
-
 # Redirect for sirgonk subdomain
-/sirgonk/* https://192-168-1-175.sirgonk.direct-us.ug.link:9443/desktop 301!
+/sirgonk/* https://192-168-1-175.sirgonk.direct-us.ug.link:9443/desktop 301
+
+# Catch-all rule for SPA
+/* /index.html 200
